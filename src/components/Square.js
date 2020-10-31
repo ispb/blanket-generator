@@ -2,17 +2,18 @@ import React from 'react';
 
 function Square({ colour, up, down, left, right, onClick }) {
 
-    const divstyle = {
-        borderBottom: down ? "25px solid green" : "25px solid transparent",
-        borderTop: up ? "25px solid #f00" : "25px solid transparent",
-        borderLeft: left ? "25px solid yellow" : "25px solid transparent",
-        borderRight: right ? "25px solid blue" : "25px solid transparent"
-    };
 
 
+    const onClickHandler = (message) => console.log(message);
     return (
-        <div className="square" onClick={() => console.log("square")}>
-            <div className="triangle" style={divstyle}></div>
+        <div className="square">
+                <svg height="50" width="50">
+                    <polygon points="25,25 0,50 50,50" className="triangle bottom" onClick={() => onClickHandler("bottom")} />
+                    <polygon points="25,25, 0,0 0,50" className="triangle left" onClick={() => onClickHandler("left")} />
+                    <polygon points="25,25 0,0 50,0" className="triangle top" onClick={() => onClickHandler("top")} />
+                    <polygon points="25,25 50,0 50,50" className="triangle right" onClick={() => onClickHandler("right")} />
+		            Sorry, your browser does not support inline SVG.
+	            </svg>
         </div>
     )
 }

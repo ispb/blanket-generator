@@ -1,5 +1,20 @@
+.cloud {
+  background-image: url(https://3s81si1s5ygj3mzby34dq6qf-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/ab_multi-cloud-1024x959.jpg);
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  min-height: 100%;
+  min-width: 100%;
+  resize: both;
+
+  filter: blur(50px);
+  filter: brightness(200%);
+  filter: contrast(50%);
+  filter: grayscale(100%)
+}
+
 .Board-container {
-  background-color: #111134;
+  background-color: #F8E9E9D0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,18 +43,24 @@
   width: 50px;
 }
 
-.arrow-down {
-  border-bottom: 25px solid green;
+.triangle{
+  
+  stroke: #F8E9E9;
+  stroke-width: 1;
 }
 
-.arrow-up {
-  border-top: 25px solid #f00;
+.bottom{
+  fill: green
 }
 
-.arrow-right {
-  border-left: 25px solid yellow;
+.left{
+  fill: red
 }
 
-.arrow-left {
-  border-right: 25px solid blue; 
+.top{
+  fill: blue
+}
+
+.right{
+  fill: yellow
 }
