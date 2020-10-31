@@ -7,6 +7,13 @@
   justify-content: center;
 }
 
+.boardBox {
+  padding:  25px;
+  background: white;
+  border: 1px solid black;
+  box-shadow: 8px 8px  black;
+}
+
 .square {
   border: 1px solid #999;
   float: left;
