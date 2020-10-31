@@ -4,7 +4,7 @@ import Square from './Square'
 function Board({ x, y }) {
 
     return (
-        <div className="boardBox">{new Array(x)
+        <div className="Board-box">{new Array(x)
             .fill(null)
             .map((x, i) =>
                 <div key={i}>
