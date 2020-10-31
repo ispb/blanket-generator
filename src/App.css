@@ -1,5 +1,5 @@
 .cloud {
-  background-image: url(https://3s81si1s5ygj3mzby34dq6qf-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/ab_multi-cloud-1024x959.jpg);
+  background-image: url(https://previews.123rf.com/images/bpuhanic/bpuhanic1501/bpuhanic150100004/35368787-white-chalk-on-black-paper-background.jpg);
   background-size: cover;
   position: absolute;
   z-index: -1;
@@ -7,14 +7,12 @@
   min-width: 100%;
   resize: both;
 
-  filter: blur(50px);
-  filter: brightness(200%);
-  filter: contrast(50%);
-  filter: grayscale(100%)
+  filter: blur(5px);
+
 }
 
 .Board-container {
-  background-color: #F8E9E9D0;
+  background-color: #ffddd2D0;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
