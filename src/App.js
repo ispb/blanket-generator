@@ -5,9 +5,10 @@ import Board from "./components/Board"
 function App() {
   return (
     <div className="App">
-      <header className="Board-container">
+      <div className="cloud"></div>
+      <div className="Board-container">
         <Board x={10} y={10}/>
-      </header>
+      </div>
     </div>
   );
 }
