@@ -13,10 +13,12 @@ function App() {
     <div className="App">
       <div className="cloud"></div>
       <div className="Board-container">
-        <Menu x={x} y={y} setX={setX} setY={setY}/>
-        <Board x={x} y={y}/>
+        <div className="Box-box">
+          <Menu x={x} y={y} setX={setX} setY={setY} />
+          <Board x={x} y={y} />
+        </div>
       </div>
-    </div>
+    </div >
   );
 }
 

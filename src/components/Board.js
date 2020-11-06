@@ -16,9 +16,9 @@ function Board({ x, y }) {
                                 right={false}
                                 up={false}
                                 down={true}
-                            />)
-                    }
+                            />)}
                 </div>
+
             )
         }</div>
     )
